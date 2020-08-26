@@ -24,7 +24,7 @@ public class SalesController {
     private final String USER_URL = "http://springboot-docker-compose-app-container-user:8000/api/userservice/user/";
     private final String PRODUCT_URL = "http://springboot-docker-compose-app-container-product:8001/api/productservice/getproduct/";
 //    private final String USER_URL = "http://localhost:8000/api/userservice/user/";
-//    private final String PRODUCT_URL = "http://springboot-docker-compose-app-container-product:8001/api/productservice/getproduct/";
+//    private final String PRODUCT_URL = "http://localhost:8001/api/productservice/getproduct/";
 
     private SalesService salesService;
 
