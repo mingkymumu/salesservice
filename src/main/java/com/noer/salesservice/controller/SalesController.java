@@ -2,6 +2,8 @@ package com.noer.salesservice.controller;
 
 import com.noer.salesservice.domain.Sales;
 import com.noer.salesservice.domain.SalesDetails;
+import com.noer.salesservice.dto.SalesDTO;
+import com.noer.salesservice.dto.SalesDetailsDTO;
 import com.noer.salesservice.salesrequest.SalesRequest;
 import com.noer.salesservice.salesresponse.ProductResponse;
 import com.noer.salesservice.salesresponse.UserResponse;
@@ -15,7 +17,6 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.Date;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 @RestController
@@ -28,14 +29,15 @@ public class SalesController {
 
     private SalesService salesService;
 
+
     @Autowired
     RestTemplate restTemplate;
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Autowired
     public SalesController(SalesService salesService) {
         this.salesService = salesService;
+
     }
 
     @PostMapping(value = "createTrans")
@@ -70,8 +72,19 @@ public class SalesController {
     }
 
     @GetMapping(value = "getAllSales")
-    public List<Sales>getAllSales(){
-        return salesService.getAllSales();
+    public ResponseEntity<List<SalesDTO>> getAllSales(){
+       List<Sales> salesList = salesService.getAllSales();
+       List<SalesDTO> list = salesList.stream().filter(item -> item!=null).map(item -> {
+           SalesDTO salesDTO = new SalesDTO(item.getId(),item.getUserId(),item.getUserName(), item.getTotal(),item.getTransactionDate(),convertToDTO(item.getDetails()));
+           return salesDTO;
+       }).collect(Collectors.toList());
+       return ResponseEntity.ok(list);
     }
 
+    private List<SalesDetailsDTO> convertToDTO (List<SalesDetails> list){
+        return list.stream().filter(obj -> obj!= null).map( obj -> {
+            SalesDetailsDTO salesDetailsDTO = new SalesDetailsDTO(obj.getId(),obj.getQuantity(),obj.getProductId(),obj.getProductName(),obj.getProductPrice(),0d);
+            return salesDetailsDTO;
+        }).collect(Collectors.toList());
+    }
 }
