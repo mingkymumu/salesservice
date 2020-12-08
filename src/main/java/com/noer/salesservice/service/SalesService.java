@@ -34,5 +34,9 @@ public class SalesService {
         Sales sales = salesRepository.findById(id).orElseThrow(()-> new SalesException("Sales transaction not found"));
         salesRepository.delete(sales);
     }
+
+    public List<Sales> getSalesByProductAndUser(String userName,String productName){
+        return salesRepository.findByUserNameAndDetails(userName,productName);
+    }
 }
 
