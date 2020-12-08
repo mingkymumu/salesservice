@@ -11,6 +11,7 @@ import com.noer.salesservice.service.SalesService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
@@ -22,10 +23,10 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/api/salesservice")
 public class SalesController {
-    private final String USER_URL = "http://springboot-docker-compose-app-container-user:8000/api/userservice/user/";
-    private final String PRODUCT_URL = "http://springboot-docker-compose-app-container-product:8001/api/productservice/getproduct/";
-//    private final String USER_URL = "http://localhost:8000/api/userservice/user/";
-//    private final String PRODUCT_URL = "http://localhost:8001/api/productservice/getproduct/";
+//    private final String USER_URL = "http://springboot-docker-compose-app-container-user:8000/api/userservice/user/";
+//    private final String PRODUCT_URL = "http://springboot-docker-compose-app-container-product:8001/api/productservice/getproduct/";
+    private final String USER_URL = "http://localhost:8000/api/userservice/user/";
+    private final String PRODUCT_URL = "http://localhost:8001/api/productservice/getproduct/";
 
     private SalesService salesService;
 
@@ -68,7 +69,7 @@ public class SalesController {
     @DeleteMapping(value = "deleteTrans")
     public ResponseEntity<String> deleteSales(@RequestParam Long id){
         salesService.deleteSales(id);
-        return ResponseEntity.ok("Data Success deleted");
+            return ResponseEntity.ok("Data Success deleted");
     }
 
     @GetMapping(value = "getAllSales")
@@ -86,5 +87,200 @@ public class SalesController {
             SalesDetailsDTO salesDetailsDTO = new SalesDetailsDTO(obj.getId(),obj.getQuantity(),obj.getProductId(),obj.getProductName(),obj.getProductPrice(),0d);
             return salesDetailsDTO;
         }).collect(Collectors.toList());
+    }
+
+    @PostMapping( value = "getSalesByProductAndUser")
+    public List<Sales> getSalesByProductAndUser(@RequestParam(required = false) String userName,@RequestParam(required = false) String productName){
+       return  salesService.getSalesByProductAndUser(userName,productName);
+
+    }
+
+    @GetMapping( value = "getMockPenugasanList", produces = MediaType.APPLICATION_JSON_VALUE)
+    public  ResponseEntity getMockPenugasan(){
+        String obj = " {\n" +
+                "   \"data\":[\n" +
+                "      {\n" +
+                "         \"no\":\"1\",\n" +
+                "         \"namaNasabah\":\"Tom Cruise\",\n" +
+                "         \"areaCollection\":\"MALANG-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"MALANG UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"2\",\n" +
+                "         \"namaNasabah\":\"Rihanna\",\n" +
+                "         \"areaCollection\":\"SiDOARJO-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"MALANG UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"3\",\n" +
+                "         \"namaNasabah\":\"Stallone\",\n" +
+                "         \"areaCollection\":\"MALANG-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"MALANG UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"4\",\n" +
+                "         \"namaNasabah\":\"Arnold\",\n" +
+                "         \"areaCollection\":\"GRESIK-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"MALANG UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"5\",\n" +
+                "         \"namaNasabah\":\"Nick Carter\",\n" +
+                "         \"areaCollection\":\"JOMBANG-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"MALANG UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"6\",\n" +
+                "         \"namaNasabah\":\"Aaron Carter\",\n" +
+                "         \"areaCollection\":\"MOJOKERTO-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"MALANG UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"7\",\n" +
+                "         \"namaNasabah\":\"John cage\",\n" +
+                "         \"areaCollection\":\"MALANG-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"MALANG UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"8\",\n" +
+                "         \"namaNasabah\":\"Sandra Bullock\",\n" +
+                "         \"areaCollection\":\"GRESIK-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"MALANG UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"9\",\n" +
+                "         \"namaNasabah\":\"Tom Hank\",\n" +
+                "         \"areaCollection\":\"GRESIK-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"MALANG UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"10\",\n" +
+                "         \"namaNasabah\":\"Richard Gere\",\n" +
+                "         \"areaCollection\":\"MALANG-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"MALANG UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"11\",\n" +
+                "         \"namaNasabah\":\"Osama Bin Laden\",\n" +
+                "         \"areaCollection\":\"MALANG-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"MALANG UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"12\",\n" +
+                "         \"namaNasabah\":\"Black Pink\",\n" +
+                "         \"areaCollection\":\"MALANG-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"MALANG UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"13\",\n" +
+                "         \"namaNasabah\":\"Mang oleh\",\n" +
+                "         \"areaCollection\":\"MALANG-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"MALANG UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"14\",\n" +
+                "         \"namaNasabah\":\"jason\",\n" +
+                "         \"areaCollection\":\"MALANG-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"MALANG UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"15\",\n" +
+                "         \"namaNasabah\":\"Mark\",\n" +
+                "         \"areaCollection\":\"SURABAYA-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"SURABAYA UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"16\",\n" +
+                "         \"namaNasabah\":\"Micheal\",\n" +
+                "         \"areaCollection\":\"SURABAYA-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"SURABAYA UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"17\",\n" +
+                "         \"namaNasabah\":\"Ronaldo\",\n" +
+                "         \"areaCollection\":\"SURABAYA-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"SURABAYA UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"18\",\n" +
+                "         \"namaNasabah\":\"Messi\",\n" +
+                "         \"areaCollection\":\"SURABAYA-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"SURABAYA UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"19\",\n" +
+                "         \"namaNasabah\":\"Bob Marley\",\n" +
+                "         \"areaCollection\":\"SURABAYA-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"SURABAYA UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"no\":\"20\",\n" +
+                "         \"namaNasabah\":\"John wick\",\n" +
+                "         \"areaCollection\":\"SURABAYA-KOTA\",\n" +
+                "         \"zipCode\":\"454545\",\n" +
+                "         \"alamat\":\"SURABAYA UTARA\",\n" +
+                "         \"merekModel\":\"Honda Vario\",\n" +
+                "         \"nomorPolisi\":\"W6767HJ\"\n" +
+                "      }\n" +
+                "   ]\n" +
+                "}";
+        return ResponseEntity.ok(obj);
     }
 }
