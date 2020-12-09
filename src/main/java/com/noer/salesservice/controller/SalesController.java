@@ -23,16 +23,16 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/api/salesservice")
 public class SalesController {
-    private final String USER_URL = "http://springboot-docker-compose-app-container-user:8000/api/userservice/user/";
-    private final String PRODUCT_URL = "http://springboot-docker-compose-app-container-product:8001/api/productservice/getproduct/";
+//    private final String USER_URL = "http://springboot-docker-compose-app-container-user:8000/api/userservice/user/";
+//    private final String PRODUCT_URL = "http://springboot-docker-compose-app-container-product:8001/api/productservice/getproduct/";
 //    private final String USER_URL = "http://localhost:8000/api/userservice/user/";
 //    private final String PRODUCT_URL = "http://localhost:8001/api/productservice/getproduct/";
 
     private SalesService salesService;
 
 
-    @Autowired
-    RestTemplate restTemplate;
+//    @Autowired
+//    RestTemplate restTemplate;
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -41,30 +41,30 @@ public class SalesController {
 
     }
 
-    @PostMapping(value = "createTrans")
-    public ResponseEntity<String> createSales(@RequestBody SalesRequest request){
-        Sales sales = new Sales();
-        UserResponse userResponse = restTemplate.getForObject(USER_URL+request.getUserId(),UserResponse.class);
-        sales.setUserId(userResponse.getId());
-        sales.setUserName(userResponse.getFullName());
-        sales.setTransactionDate(new Date());
-        if(request.getProducts().size() > 0){
-        List<SalesDetails> list =  request.getProducts().stream().map(obj -> {
-                SalesDetails details = new SalesDetails();
-                details.setSales(sales);
-                ProductResponse productResponse = restTemplate.getForObject(PRODUCT_URL+obj.getProductId(),ProductResponse.class);
-                details.setProductId(productResponse.getId());
-                details.setProductName(productResponse.getProductName());
-                details.setQuantity(obj.getQty());
-                details.setProductPrice(productResponse.getPrice());
-                return  details;
-            }).collect(Collectors.toList());
-            sales.setDetails(list);
-            sales.setTotal(sales.getTotal());
-        }
-        salesService.saveSalesTransaction(sales);
-        return ResponseEntity.ok("Data Success Saved");
-    }
+//    @PostMapping(value = "createTrans")
+//    public ResponseEntity<String> createSales(@RequestBody SalesRequest request){
+//        Sales sales = new Sales();
+//        UserResponse userResponse = restTemplate.getForObject(USER_URL+request.getUserId(),UserResponse.class);
+//        sales.setUserId(userResponse.getId());
+//        sales.setUserName(userResponse.getFullName());
+//        sales.setTransactionDate(new Date());
+//        if(request.getProducts().size() > 0){
+//        List<SalesDetails> list =  request.getProducts().stream().map(obj -> {
+//                SalesDetails details = new SalesDetails();
+//                details.setSales(sales);
+//                ProductResponse productResponse = restTemplate.getForObject(PRODUCT_URL+obj.getProductId(),ProductResponse.class);
+//                details.setProductId(productResponse.getId());
+//                details.setProductName(productResponse.getProductName());
+//                details.setQuantity(obj.getQty());
+//                details.setProductPrice(productResponse.getPrice());
+//                return  details;
+//            }).collect(Collectors.toList());
+//            sales.setDetails(list);
+//            sales.setTotal(sales.getTotal());
+//        }
+//        salesService.saveSalesTransaction(sales);
+//        return ResponseEntity.ok("Data Success Saved");
+//    }
 
     @DeleteMapping(value = "deleteTrans")
     public ResponseEntity<String> deleteSales(@RequestParam Long id){
