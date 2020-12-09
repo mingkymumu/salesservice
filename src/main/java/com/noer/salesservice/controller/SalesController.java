@@ -23,10 +23,6 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/api/salesservice")
 public class SalesController {
-//    private final String USER_URL = "http://springboot-docker-compose-app-container-user:8000/api/userservice/user/";
-//    private final String PRODUCT_URL = "http://springboot-docker-compose-app-container-product:8001/api/productservice/getproduct/";
-//    private final String USER_URL = "http://localhost:8000/api/userservice/user/";
-//    private final String PRODUCT_URL = "http://localhost:8001/api/productservice/getproduct/";
 
     private SalesService salesService;
 
@@ -69,7 +65,7 @@ public class SalesController {
     @DeleteMapping(value = "deleteTrans")
     public ResponseEntity<String> deleteSales(@RequestParam Long id){
         salesService.deleteSales(id);
-        return ResponseEntity.ok("Data Success deleted");
+            return ResponseEntity.ok("Data Success deleted");
     }
 
     @GetMapping(value = "getAllSales")
@@ -88,6 +84,7 @@ public class SalesController {
             return salesDetailsDTO;
         }).collect(Collectors.toList());
     }
+
     @GetMapping(value = "getMockPenugasanList", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity getMockPenugasan() {
         String obj = "{\n" +
@@ -276,5 +273,4 @@ public class SalesController {
                 "}";
         return ResponseEntity.ok(obj);
     }
-
 }
