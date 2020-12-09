@@ -89,15 +89,9 @@ public class SalesController {
         }).collect(Collectors.toList());
     }
 
-    @PostMapping( value = "getSalesByProductAndUser")
-    public List<Sales> getSalesByProductAndUser(@RequestParam(required = false) String userName,@RequestParam(required = false) String productName){
-       return  salesService.getSalesByProductAndUser(userName,productName);
-
-    }
-
-    @GetMapping( value = "getMockPenugasanList", produces = MediaType.APPLICATION_JSON_VALUE)
-    public  ResponseEntity getMockPenugasan(){
-        String obj = " {\n" +
+    @GetMapping(value = "getMockPenugasanList", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity getMockPenugasan() {
+        String obj = "{\n" +
                 "   \"data\":[\n" +
                 "      {\n" +
                 "         \"no\":\"1\",\n" +
