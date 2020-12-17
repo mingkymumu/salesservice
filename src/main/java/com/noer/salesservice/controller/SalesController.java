@@ -273,4 +273,153 @@ public class SalesController {
                 "}";
         return ResponseEntity.ok(obj);
     }
+    @GetMapping(value = "getMockPertanyaan",produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity getMockPertanyaan(){
+        String obj = "{\n" +
+                " [\n" +
+                "  {\n" +
+                "  \"id\" : 1 ,\n" +
+                "  \"pertanyaanId\": 1,\n" +
+                "  \"nomorKontrak\": \"23456734\",\n" +
+                "  \"deskripsiPertanyaan\": \"PIC FIELD WORK\",\n" +
+                "  \"verifikasiLabel\": null,\n" +
+                "  \"indexPertanyaan\": 1,\n" +
+                "  \"inputTambahan\": false,\n" +
+                "  \"inputType\": \"LABEL\",\n" +
+                "  \"picField\":\"12345678\",\n" +
+                "  \"inputParameterType\": null,\n" +
+                "  \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
+                "  \"samplingFrameField\":null,\n" +
+                "  \"samplingFrameValue\":null,\n" +
+                "  \"details\": [\n" +
+                "  \t{\n" +
+                "\t\t\"opsijawaban\": null,\n" +
+                "\t\t\"jawabanSatu\":\"\" ,\n" +
+                "\t\t\"jawabanDua\":\"\" \n" +
+                "\t}\n" +
+                "  ]\n" +
+                "  },\n" +
+                "  {\n" +
+                "  \"id\" : 2 ,\n" +
+                "  \"pertanyaanId\": 2,\n" +
+                "  \"nomorKontrak\": \"23456734\",\n" +
+                "  \"deskripsiPertanyaan\":\"NAMA RESPONDEN\",\n" +
+                "  \"verifikasiLabel\": null,\n" +
+                "  \"indexPertanyaan\": 2,\n" +
+                "  \"inputTambahan\":false,\n" +
+                "  \"inputType\":\"TEXTINPUT\",\n" +
+                "  \"picField\":\"12345678\",\n" +
+                "  \"inputParameterType\": null,\n" +
+                "  \"visitId\": \"001/0302/K1/REG/QPC/I/2020\",\n" +
+                "  \"samplingFrameField\": null,\n" +
+                "  \"samplingFrameValue\": null,\n" +
+                "  \"details\":[\n" +
+                "      {\n" +
+                "\t    \"opsiJawaban\": null,\n" +
+                "\t\t\"jawabanSatu\": \"\",\n" +
+                "\t\t\"jawabanDua\": \"\"\n" +
+                "\n" +
+                "\t  }\t  \n" +
+                "\t  ]\n" +
+                "  },\n" +
+                "  {\n" +
+                "  \"id\" : 3 ,\n" +
+                "  \"pertanyaanId\": 3,\n" +
+                "  \"nomorKontrak\": \"23456734\",\n" +
+                "  \"deskripsiPertanyaan\":\"HUBUNGAN DENGAN NASABAH\",\n" +
+                "  \"verifikasiLabel\": null,\n" +
+                "  \"indexPertanyaan\": 3,\n" +
+                "  \"inputTambahan\":false,\n" +
+                "  \"inputType\":\"DROPDOWN\",\n" +
+                "  \"picField\":\"12345678\",\n" +
+                "  \"inputParameterType\":\"HUBUNGAN_NASABAH\",\n" +
+                "  \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
+                "  \"samplingFrameField\": null,\n" +
+                "  \"samplingFrameValue\": null,\n" +
+                "  \"details\":[\n" +
+                "      {\n" +
+                "\t    \"opsiJawaban\": \"\",\n" +
+                "\t\t\"jawabanSatu\": \"\",\n" +
+                "\t\t\"jawabanDua\": \"\"\n" +
+                "\n" +
+                "\t  }\n" +
+                "\t ]\n" +
+                "  },\n" +
+                "  {\n" +
+                "  \"id\" : 4 ,\n" +
+                "  \"pertanyaanId\": 4,\n" +
+                "  \"nomorKontrak\": \"23456734\",\n" +
+                "  \"deskripsiPertanyaan\":\"DARI MANA BAPAK/IBU/SAUDARA/I MENGETAHUI ADIRA FINANCE?\",\n" +
+                "  \"verifikasi\":\"\",\n" +
+                "  \"samplingrameField\":\"\",\n" +
+                "  \"samplingFrameValue\":\"\",\n" +
+                "  \"details\":[\n" +
+                "     {\n" +
+                "\t    \"opsiJawaban\":\"DEALER\",\n" +
+                "\t\t\"jawabanSatu\":\"\",\n" +
+                "\t\t\"jawabanDua\":\"\"\n" +
+                "\n" +
+                "\t  },\n" +
+                "\t  {\n" +
+                "\t  \t\"opsiJawaban\":\"SAUDARA/TEMAN\",\n" +
+                "\t\t\"jawabanSatu\":\"\",\n" +
+                "\t\t\"jawabanDua\": \"\"\n" +
+                "\t  },\n" +
+                "\t  {\n" +
+                "\t  \t\"opsiJawaban\":\"IKLAN\",\n" +
+                "\t\t\"jawabanSatu\":\"\",\n" +
+                "\t\t\"jawabanDua\":\"\"\n" +
+                "\t  },\n" +
+                "\t  {\n" +
+                "\t  \t\"opsiJawaban\":\"AGEN AXI/KEDAY\",\n" +
+                "\t\t\"jawabanSatu\":\"\",\n" +
+                "\t\t\"jawabanDua\": \"\"\n" +
+                "\t  },\n" +
+                "\t  {\n" +
+                "\t  \t\"opsiJawaban\": \"MEDIATOR/PERANTARA\",\n" +
+                "\t\t\"jawabanSatu\": \"\",\n" +
+                "\t\t\"jawabanDua\": \"\",\n" +
+                "\t  },\n" +
+                "\t  {\n" +
+                "\t  \t\"opsiJawaban\": \"DATANG LANGSUNG KE KANTOR ADIRA\",\n" +
+                "\t\t\"jawabanSatu\": \"\",\n" +
+                "\t\t\"jawabanDua\": \"\"\n" +
+                "\t  }\n" +
+                "\t  \n" +
+                "\t  ]\n" +
+                "  },\n" +
+                "  {\n" +
+                "  \"id\" : 5, \n" +
+                "  \"pertanyaanId\": 5,\n" +
+                "  \"nomorKontrak\": \"23456734\",\n" +
+                "  \"deskripsiPertanyaan\":\"PRODUK ADIRA APA YANG BAPAK/IBU/SAUDARA/I KREDIT DARI ADIRA FINANCE?\",\n" +
+                "  \"verifikasiLabel\":\"\",\n" +
+                "  \"indexPertanyaan\":\"5\",\n" +
+                "  \"inputTambahan\":\"\",\n" +
+                "  \"inputType\":\"\",\n" +
+                "  \"picField\":\"\",\n" +
+                "  \"inputParameterType\":\"\",\n" +
+                "  \"visitId\":\"\",\n" +
+                "  \"samplingFrameField\":\"PRODUCT\",\n" +
+                "  \"samplingFrameValue\":\"0002F-REGULAR NMCY\",\n" +
+                "  \"details\":[\n" +
+                "      {\n" +
+                "\t    \"opsiJawaban\":\"SESUAI\",\n" +
+                "\t\t\"jawabanSatu\":\"\",\n" +
+                "\t\t\"jawabanDua\": \"\"\n" +
+                "\n" +
+                "\t  },\n" +
+                "\t  {\n" +
+                "\t  \t\"opsiJawaban\": \"TIDAK SESUAI\",\n" +
+                "\t\t\"jawabanSatu\":\"\",\n" +
+                "\t\t\"jawabanDua\": \"\"\n" +
+                "\t  }\n" +
+                "\t  \n" +
+                "\t  ]\n" +
+                "  }\n" +
+                "  \n" +
+                " ]\n" +
+                "}";
+        return ResponseEntity.ok(obj);
+    }
 }
