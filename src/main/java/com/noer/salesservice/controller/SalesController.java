@@ -276,7 +276,7 @@ public class SalesController {
     @GetMapping(value = "getMockPertanyaan",produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity getMockPertanyaan(){
         String obj = "{\n" +
-                "   [\n" +
+                " data : [\n" +
                 "      {\n" +
                 "         \"id\":1,\n" +
                 "         \"pertanyaanId\":1,\n" +
