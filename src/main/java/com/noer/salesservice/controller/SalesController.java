@@ -276,7 +276,7 @@ public class SalesController {
     @GetMapping(value = "getMockPertanyaan",produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity getMockPertanyaan(){
         String obj = "{\n" +
-                " \"data\" : [\n" +
+                "   \"data\":[\n" +
                 "      {\n" +
                 "         \"id\":1,\n" +
                 "         \"pertanyaanId\":1,\n" +
@@ -348,12 +348,12 @@ public class SalesController {
                 "         \"pertanyaanId\":4,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"DARI MANA BAPAK/IBU/SAUDARA/I MENGETAHUI ADIRA FINANCE?\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"verifikasiLabel\":null,\n" +
                 "         \"indexPertanyaan\":4,\n" +
                 "         \"inputTambahan\":false,\n" +
                 "         \"inputType\":\"CHECKBOX\",\n" +
                 "         \"picField\":\"12345678\",\n" +
-                "         \"inputParameterType\":\"HUBUNGAN_NASABAH\",\n" +
+                "         \"inputParameterType\": null,\n" +
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
                 "         \"samplingrameField\":\"\",\n" +
                 "         \"samplingFrameValue\":\"\",\n" +
@@ -397,11 +397,11 @@ public class SalesController {
                 "         \"deskripsiPertanyaan\":\"PRODUK ADIRA APA YANG BAPAK/IBU/SAUDARA/I KREDIT DARI ADIRA FINANCE?\",\n" +
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"5\",\n" +
-                "         \"inputTambahan\": true,\n" +
+                "         \"inputTambahan\":\"true\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
-                "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
+                "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":\"PRODUCT\",\n" +
                 "         \"samplingFrameValue\":\"0002F-REGULAR NMCY\",\n" +
                 "         \"details\":[\n" +
@@ -416,7 +416,84 @@ public class SalesController {
                 "               \"jawabanDua\":\"\"\n" +
                 "            }\n" +
                 "         ]\n" +
+                "      },\n" +
+                "       {\n" +
+                "         \"id\":6,\n" +
+                "         \"pertanyaanId\":6,\n" +
+                "         \"nomorKontrak\":\"23456734\",\n" +
+                "         \"deskripsiPertanyaan\":\"JIKA UANG TUNAI, BERAPA YANG DITERIMA BAPAK/IBU/SAUDARA/I?\",\n" +
+                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"indexPertanyaan\":\"6\",\n" +
+                "         \"inputTambahan\":\"false\",\n" +
+                "         \"inputType\":\"TEXTINPUT\",\n" +
+                "         \"picField\":\"12345678\",\n" +
+                "         \"inputParameterType\":\"\",\n" +
+                "         \"visitId\":\"\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": null,\n" +
+                "         \"details\":[\n" +
+                "            {\n" +
+                "               \"opsiJawaban\": null,\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\"\n" +
+                "            }\n" +
+                "         ]\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"id\":7,\n" +
+                "         \"pertanyaanId\":7,\n" +
+                "         \"nomorKontrak\":\"23456734\",\n" +
+                "         \"deskripsiPertanyaan\":\"UNIT YANG DIKREDIT ATAU DIJAMINKAN?\",\n" +
+                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"indexPertanyaan\":\"7\",\n" +
+                "         \"inputTambahan\":\"true\",\n" +
+                "         \"inputType\":\"RADIO\",\n" +
+                "         \"picField\":\"12345678\",\n" +
+                "         \"inputParameterType\":\"\",\n" +
+                "         \"visitId\":\"\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"HONDA VARIO 125 ESP CBS\",\n" +
+                "         \"details\":[\n" +
+                "            {\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\"\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\"\n" +
+                "            }\n" +
+                "         ]\n" +
+                "      },\n" +
+                "       {\n" +
+                "         \"id\":8,\n" +
+                "         \"pertanyaanId\":8,\n" +
+                "         \"nomorKontrak\":\"23456734\",\n" +
+                "         \"deskripsiPertanyaan\":\"TUJUAN PENGGUNAAN UANG ATAU UNIT UNTUK APA?\",\n" +
+                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"indexPertanyaan\":\"8\",\n" +
+                "         \"inputTambahan\":\"true\",\n" +
+                "         \"inputType\":\"RADIO\",\n" +
+                "         \"picField\":\"12345678\",\n" +
+                "         \"inputParameterType\":\"\",\n" +
+                "         \"visitId\":\"\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"HONDA VARIO 125 ESP CBS\",\n" +
+                "         \"details\":[\n" +
+                "            {\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\"\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\"\n" +
+                "            }\n" +
+                "         ]\n" +
                 "      }\n" +
+                "      \n" +
                 "   ]\n" +
                 "}";
         return ResponseEntity.ok(obj);
