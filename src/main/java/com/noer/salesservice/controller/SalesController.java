@@ -397,11 +397,11 @@ public class SalesController {
                 "         \"deskripsiPertanyaan\":\"PRODUK ADIRA APA YANG BAPAK/IBU/SAUDARA/I KREDIT DARI ADIRA FINANCE?\",\n" +
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"5\",\n" +
-                "         \"inputTambahan\":\"\",\n" +
-                "         \"inputType\":\"\",\n" +
-                "         \"picField\":\"\",\n" +
+                "         \"inputTambahan\": true,\n" +
+                "         \"inputType\":\"RADIO\",\n" +
+                "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
-                "         \"visitId\":\"\",\n" +
+                "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
                 "         \"samplingFrameField\":\"PRODUCT\",\n" +
                 "         \"samplingFrameValue\":\"0002F-REGULAR NMCY\",\n" +
                 "         \"details\":[\n" +
