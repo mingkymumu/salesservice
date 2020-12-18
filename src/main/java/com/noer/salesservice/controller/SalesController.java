@@ -348,7 +348,13 @@ public class SalesController {
                 "         \"pertanyaanId\":4,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"DARI MANA BAPAK/IBU/SAUDARA/I MENGETAHUI ADIRA FINANCE?\",\n" +
-                "         \"verifikasi\":\"\",\n" +
+                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"indexPertanyaan\":4,\n" +
+                "         \"inputTambahan\":false,\n" +
+                "         \"inputType\":\"CHECKBOX\",\n" +
+                "         \"picField\":\"12345678\",\n" +
+                "         \"inputParameterType\":\"HUBUNGAN_NASABAH\",\n" +
+                "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
                 "         \"samplingrameField\":\"\",\n" +
                 "         \"samplingFrameValue\":\"\",\n" +
                 "         \"details\":[\n" +
