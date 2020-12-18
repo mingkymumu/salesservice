@@ -479,7 +479,7 @@ public class SalesController {
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\": null,\n" +
-                "         \"samplingFrameValue\": \"HONDA VARIO 125 ESP CBS\",\n" +
+                "         \"samplingFrameValue\": \"MULTIGUNA-MURABAHAH\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\": \"SESUAI\",\n" +
