@@ -351,7 +351,7 @@ public class SalesController {
                 "         \"verifikasiLabel\":null,\n" +
                 "         \"indexPertanyaan\":4,\n" +
                 "         \"inputTambahan\":false,\n" +
-                "         \"inputType\":\"CHECKBOX\",\n" +
+                "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\": null,\n" +
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
@@ -479,7 +479,7 @@ public class SalesController {
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\": null,\n" +
-                "         \"samplingFrameValue\": \"MULTIGUNA-MURABAHAH\",\n" +
+                "         \"samplingFrameValue\": \"HONDA VARIO 125 ESP CBS\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\": \"SESUAI\",\n" +
