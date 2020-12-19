@@ -295,7 +295,8 @@ public class SalesController {
                 "            {\n" +
                 "               \"opsijawaban\":null,\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -317,7 +318,8 @@ public class SalesController {
                 "            {\n" +
                 "               \"opsiJawaban\":null,\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -339,7 +341,8 @@ public class SalesController {
                 "            {\n" +
                 "               \"opsiJawaban\":\"\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -351,7 +354,7 @@ public class SalesController {
                 "         \"verifikasiLabel\":null,\n" +
                 "         \"indexPertanyaan\":4,\n" +
                 "         \"inputTambahan\":false,\n" +
-                "         \"inputType\":\"RADIO\",\n" +
+                "         \"inputType\":\"CHECKBOX\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\": null,\n" +
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
@@ -361,32 +364,38 @@ public class SalesController {
                 "            {\n" +
                 "               \"opsiJawaban\":\"DEALER\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SAUDARA/TEMAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"IKLAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"AGEN AXI/KEDAY\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"MEDIATOR/PERANTARA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"DATANG LANGSUNG KE KANTOR ADIRA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -408,12 +417,14 @@ public class SalesController {
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -436,6 +447,7 @@ public class SalesController {
                 "               \"opsiJawaban\": null,\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\"\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -457,12 +469,14 @@ public class SalesController {
                 "            {\n" +
                 "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -484,12 +498,14 @@ public class SalesController {
                 "            {\n" +
                 "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      }\n" +
