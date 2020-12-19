@@ -446,7 +446,7 @@ public class SalesController {
                 "            {\n" +
                 "               \"opsiJawaban\": null,\n" +
                 "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\"\n" +
+                "               \"jawabanDua\":\"\",\n" +
                 "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
