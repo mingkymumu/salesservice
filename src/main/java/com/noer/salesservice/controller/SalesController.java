@@ -354,7 +354,7 @@ public class SalesController {
                 "         \"verifikasiLabel\":null,\n" +
                 "         \"indexPertanyaan\":4,\n" +
                 "         \"inputTambahan\":false,\n" +
-                "         \"inputType\":\"CHECKBOX\",\n" +
+                "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\": null,\n" +
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
@@ -493,7 +493,7 @@ public class SalesController {
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\": null,\n" +
-                "         \"samplingFrameValue\": \"HONDA VARIO 125 ESP CBS\",\n" +
+                "         \"samplingFrameValue\": \"MULTIGUNA-MURABAHAH\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\": \"SESUAI\",\n" +
@@ -508,8 +508,201 @@ public class SalesController {
                 "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"id\":9,\n" +
+                "         \"pertanyaanId\":9,\n" +
+                "         \"nomorKontrak\":\"23456734\",\n" +
+                "         \"deskripsiPertanyaan\":\"STATUS UNIT\",\n" +
+                "         \"verifikasiLabel\":null,\n" +
+                "         \"indexPertanyaan\":9,\n" +
+                "         \"inputTambahan\":false,\n" +
+                "         \"inputType\":\"RADIO\",\n" +
+                "         \"picField\":\"12345678\",\n" +
+                "         \"inputParameterType\": null,\n" +
+                "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
+                "         \"samplingrameField\":\"\",\n" +
+                "         \"samplingFrameValue\":\"\",\n" +
+                "         \"details\":[\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"NASABAH/PASANGAN\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"KELUARGA\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"SAUDARA/TEMAN\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": true\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"GADAI\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": true\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"OVER/CREDIT\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": true\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"DITARIK\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": true\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"HILANG\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": true\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"BARANG BUKTI(KEPOLISIAN)\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": true\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"TIDAK DIKETAHUI\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": true\n" +
+                "            }\n" +
+                "         ]\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"id\":10,\n" +
+                "         \"pertanyaanId\":10,\n" +
+                "         \"nomorKontrak\":\"23456734\",\n" +
+                "         \"deskripsiPertanyaan\":\"UNIT/UANG TUNAI TERSEBUT DIGUNAKAN OLEH SIAPA?\",\n" +
+                "         \"verifikasiLabel\":null,\n" +
+                "         \"indexPertanyaan\":10,\n" +
+                "         \"inputTambahan\":false,\n" +
+                "         \"inputType\":\"RADIO\",\n" +
+                "         \"picField\":\"12345678\",\n" +
+                "         \"inputParameterType\": null,\n" +
+                "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
+                "         \"samplingrameField\":\"\",\n" +
+                "         \"samplingFrameValue\":\"\",\n" +
+                "         \"details\":[\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"SENDIRI/PASANGAN\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"ANAK/ORANG TUA\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": true\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"SAUDARA/TEMAN\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": true\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"LAINNYA\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": true\n" +
+                "            }\n" +
+                "         ]\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"id\":11,\n" +
+                "         \"pertanyaanId\":11,\n" +
+                "         \"nomorKontrak\":\"23456734\",\n" +
+                "         \"deskripsiPertanyaan\":\"APAKAH PETUGAS SURVEY DATANG KE RUMAH??\",\n" +
+                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"indexPertanyaan\":11,\n" +
+                "         \"inputTambahan\":\"true\",\n" +
+                "         \"inputType\":\"RADIO\",\n" +
+                "         \"picField\":\"12345678\",\n" +
+                "         \"inputParameterType\":\"\",\n" +
+                "         \"visitId\":\"\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": null,\n" +
+                "         \"details\":[\n" +
+                "            {\n" +
+                "               \"opsiJawaban\": \"YA\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\": \"TIDAK\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": true\n" +
+                "            }\n" +
+                "         ]\n" +
+                "      },\n" +
+                "      {\n" +
+                "         \"id\":12,\n" +
+                "         \"pertanyaanId\":12,\n" +
+                "         \"nomorKontrak\":\"23456734\",\n" +
+                "         \"deskripsiPertanyaan\":\"APAKAH PETUGAS SURVEY MEMBERIKAN PENJELASAN TERKAIT KREDIT ADIRA?\",\n" +
+                "         \"verifikasiLabel\":null,\n" +
+                "         \"indexPertanyaan\":12,\n" +
+                "         \"inputTambahan\":false,\n" +
+                "         \"inputType\":\"CHECKBOX\",\n" +
+                "         \"picField\":\"12345678\",\n" +
+                "         \"inputParameterType\": null,\n" +
+                "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
+                "         \"samplingrameField\":\"\",\n" +
+                "         \"samplingFrameValue\":\"\",\n" +
+                "         \"details\":[\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"HARGA UNIT\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"ANGSURAM\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"TENOR\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"BUNGA/MARGIN\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"CARA MEMBAYAR ANGSURAN\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
+                "            },\n" +
+                "            {\n" +
+                "               \"opsiJawaban\":\"TIDAK DIBERIKAN PENJELASAN\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": true\n" +
+                "            }\n" +
+                "         ]\n" +
                 "      }\n" +
-                "      \n" +
                 "   ]\n" +
                 "}";
         return ResponseEntity.ok(obj);
