@@ -567,7 +567,7 @@ public class SalesController {
                 "               \"statusAlert\": true\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"BARANG BUKTI(KEPOLISIAN)\",\n" +
+                "               \"opsiJawaban\":\"BARANG BUKTI (KEPOLISIAN)\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
                 "               \"statusAlert\": true\n" +
