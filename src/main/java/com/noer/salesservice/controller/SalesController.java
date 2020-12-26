@@ -1318,7 +1318,7 @@ public class SalesController {
                 "         \"id\":32,\n" +
                 "         \"pertanyaanId\":32,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
-                "         \"deskripsiPertanyaan\":\"JIKA YA, BAGAIMANA CARA PETUGAS ADIRA MENGINGATKAN BAPAK/IBU/SAUDARA/I?\",\n" +
+                "         \"deskripsiPertanyaan\":\"BAGAIMANA PROSES PENARIKAN TERSEBUT?\",\n" +
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":32,\n" +
                 "         \"inputTambahan\":false,\n" +
@@ -1365,7 +1365,7 @@ public class SalesController {
                 "         \"id\":33,\n" +
                 "         \"pertanyaanId\":33,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
-                "         \"deskripsiPertanyaan\":\"JIKA YA, BAGAIMANA CARA PETUGAS ADIRA MENGINGATKAN BAPAK/IBU/SAUDARA/I?\",\n" +
+                "         \"deskripsiPertanyaan\":\"BAGAIMANA KONDISI UNIT SAAT DITARIK?\",\n" +
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":33,\n" +
                 "         \"inputTambahan\":false,\n" +
