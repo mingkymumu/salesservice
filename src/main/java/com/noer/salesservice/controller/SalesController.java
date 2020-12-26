@@ -436,7 +436,7 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"6\",\n" +
                 "         \"inputTambahan\":false,\n" +
-                "         \"inputType\":\"TEXTINPUT\",\n" +
+                "         \"inputType\":\"CURRENCYINPUT\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
@@ -787,7 +787,7 @@ public class SalesController {
                 "         \"verifikasiLabel\":null,\n" +
                 "         \"indexPertanyaan\":15,\n" +
                 "         \"inputTambahan\":false,\n" +
-                "         \"inputType\":\"TEXTINPUT\",\n" +
+                "         \"inputType\":\"CURRENCYINPUT\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":null,\n" +
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
