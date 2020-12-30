@@ -285,6 +285,7 @@ public class SalesController {
                 "         \"verifikasiLabel\":null,\n" +
                 "         \"indexPertanyaan\":1,\n" +
                 "         \"inputTambahan\":false,\n" +
+                "        \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"LABEL\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":null,\n" +
@@ -296,7 +297,7 @@ public class SalesController {
                 "               \"opsijawaban\":null,\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -308,6 +309,7 @@ public class SalesController {
                 "         \"verifikasiLabel\":null,\n" +
                 "         \"indexPertanyaan\":2,\n" +
                 "         \"inputTambahan\":false,\n" +
+                "        \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"TEXTINPUT\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":null,\n" +
@@ -319,7 +321,7 @@ public class SalesController {
                 "               \"opsiJawaban\":null,\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -331,6 +333,7 @@ public class SalesController {
                 "         \"verifikasiLabel\":null,\n" +
                 "         \"indexPertanyaan\":3,\n" +
                 "         \"inputTambahan\":false,\n" +
+                "        \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"DROPDOWN\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"HUBUNGAN_NASABAH\",\n" +
@@ -342,7 +345,7 @@ public class SalesController {
                 "               \"opsiJawaban\":\"\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -354,9 +357,10 @@ public class SalesController {
                 "         \"verifikasiLabel\":null,\n" +
                 "         \"indexPertanyaan\":4,\n" +
                 "         \"inputTambahan\":false,\n" +
+                "        \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
-                "         \"inputParameterType\":null,\n" +
+                "         \"inputParameterType\": null,\n" +
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
                 "         \"samplingrameField\":\"\",\n" +
                 "         \"samplingFrameValue\":\"\",\n" +
@@ -365,37 +369,37 @@ public class SalesController {
                 "               \"opsiJawaban\":\"DEALER\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SAUDARA/TEMAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"IKLAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"AGEN AXI/KEDAY\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"MEDIATOR/PERANTARA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"DATANG LANGSUNG KE KANTOR ADIRA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -407,6 +411,7 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"5\",\n" +
                 "         \"inputTambahan\":true,\n" +
+                "        \"inputTambahanType\":\"TEXTINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
@@ -418,36 +423,37 @@ public class SalesController {
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "       {\n" +
                 "         \"id\":6,\n" +
                 "         \"pertanyaanId\":6,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"JIKA UANG TUNAI, BERAPA YANG DITERIMA BAPAK/IBU/SAUDARA/I?\",\n" +
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"6\",\n" +
-                "         \"inputTambahan\":false,\n" +
-                "         \"inputType\":\"CURRENCYINPUT\",\n" +
+                "         \"inputTambahan\": false,\n" +
+                "         \"inputTambahanType\":null,\n" +
+                "         \"inputType\":\"TEXTINPUT\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":null,\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": null,\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":null,\n" +
+                "               \"opsiJawaban\": null,\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -459,28 +465,29 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"7\",\n" +
                 "         \"inputTambahan\":true,\n" +
+                "        \"inputTambahanType\":\"TEXTINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":\"HONDA VARIO 125 ESP CBS\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"HONDA VARIO 125 ESP CBS\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"SESUAI\",\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "       {\n" +
                 "         \"id\":8,\n" +
                 "         \"pertanyaanId\":8,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
@@ -488,24 +495,25 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"8\",\n" +
                 "         \"inputTambahan\":true,\n" +
+                "         \"inputTambahanType\":\"TEXTINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":\"MULTIGUNA-MURABAHAH\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"MULTIGUNA-MURABAHAH\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"SESUAI\",\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -517,9 +525,10 @@ public class SalesController {
                 "         \"verifikasiLabel\":null,\n" +
                 "         \"indexPertanyaan\":9,\n" +
                 "         \"inputTambahan\":false,\n" +
+                "        \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
-                "         \"inputParameterType\":null,\n" +
+                "         \"inputParameterType\": null,\n" +
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
                 "         \"samplingrameField\":\"\",\n" +
                 "         \"samplingFrameValue\":\"\",\n" +
@@ -528,55 +537,55 @@ public class SalesController {
                 "               \"opsiJawaban\":\"NASABAH/PASANGAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"KELUARGA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SAUDARA/TEMAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"GADAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"OVER/CREDIT\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"DITARIK\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"HILANG\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"BARANG BUKTI(KEPOLISIAN)\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"TIDAK DIKETAHUI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -588,9 +597,10 @@ public class SalesController {
                 "         \"verifikasiLabel\":null,\n" +
                 "         \"indexPertanyaan\":10,\n" +
                 "         \"inputTambahan\":false,\n" +
+                "        \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
-                "         \"inputParameterType\":null,\n" +
+                "         \"inputParameterType\": null,\n" +
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
                 "         \"samplingrameField\":\"\",\n" +
                 "         \"samplingFrameValue\":\"\",\n" +
@@ -599,25 +609,25 @@ public class SalesController {
                 "               \"opsiJawaban\":\"SENDIRI/PASANGAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"ANAK/ORANG TUA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SAUDARA/TEMAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"LAINNYA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -628,25 +638,26 @@ public class SalesController {
                 "         \"deskripsiPertanyaan\":\"APAKAH PETUGAS SURVEY DATANG KE RUMAH??\",\n" +
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":11,\n" +
-                "         \"inputTambahan\":false,\n" +
+                "         \"inputTambahan\": false,\n" +
+                "        \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":null,\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": null,\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"YA\",\n" +
+                "               \"opsiJawaban\": \"YA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK\",\n" +
+                "               \"opsiJawaban\": \"TIDAK\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -658,9 +669,10 @@ public class SalesController {
                 "         \"verifikasiLabel\":null,\n" +
                 "         \"indexPertanyaan\":12,\n" +
                 "         \"inputTambahan\":false,\n" +
+                "        \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"CHECKBOX\",\n" +
                 "         \"picField\":\"12345678\",\n" +
-                "         \"inputParameterType\":null,\n" +
+                "         \"inputParameterType\": null,\n" +
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
                 "         \"samplingrameField\":\"\",\n" +
                 "         \"samplingFrameValue\":\"\",\n" +
@@ -669,37 +681,37 @@ public class SalesController {
                 "               \"opsiJawaban\":\"HARGA UNIT\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"ANGSURAM\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"TENOR\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"BUNGA/MARGIN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"CARA MEMBAYAR ANGSURAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"TIDAK DIBERIKAN PENJELASAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -711,30 +723,31 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":13,\n" +
                 "         \"inputTambahan\":false,\n" +
+                "        \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":null,\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": null,\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"YA\",\n" +
+                "               \"opsiJawaban\": \"YA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK\",\n" +
+                "               \"opsiJawaban\": \"TIDAK\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK DIKETAHUI\",\n" +
+                "               \"opsiJawaban\": \"TIDAK DIKETAHUI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -746,40 +759,41 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":14,\n" +
                 "         \"inputTambahan\":false,\n" +
+                "        \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":null,\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": null,\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"DIANTAR KE RUMAH\",\n" +
+                "               \"opsiJawaban\": \"DIANTAR KE RUMAH\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"AMBIL DARI DEALER/SHOWROOM\",\n" +
+                "               \"opsiJawaban\": \"AMBIL DARI DEALER/SHOWROOM\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"DIANTAR MEDIATOR\",\n" +
+                "               \"opsiJawaban\": \"DIANTAR MEDIATOR\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
-                "            {\n" +
-                "               \"opsiJawaban\":\"LAINNYA\",\n" +
+                "           {\n" +
+                "               \"opsiJawaban\": \"LAINNYA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "       {\n" +
                 "         \"id\":15,\n" +
                 "         \"pertanyaanId\":15,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
@@ -787,7 +801,8 @@ public class SalesController {
                 "         \"verifikasiLabel\":null,\n" +
                 "         \"indexPertanyaan\":15,\n" +
                 "         \"inputTambahan\":false,\n" +
-                "         \"inputType\":\"CURRENCYINPUT\",\n" +
+                "         \"inputTambahanType\":null,\n" +
+                "         \"inputType\":\"TEXTINPUT\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":null,\n" +
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
@@ -798,11 +813,11 @@ public class SalesController {
                 "               \"opsiJawaban\":null,\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "       {\n" +
                 "         \"id\":16,\n" +
                 "         \"pertanyaanId\":16,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
@@ -810,53 +825,55 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"16\",\n" +
                 "         \"inputTambahan\":true,\n" +
+                "          \"inputTambahanType\":\"TEXTINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":\"03 - PEG.SWASTA FORMAL\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"03 - PEG.SWASTA FORMAL\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"SESUAI\",\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "     {\n" +
                 "         \"id\":17,\n" +
                 "         \"pertanyaanId\":17,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
-                "         \"deskripsiPertanyaan\":\"TBERAPA LAMA BAPAK/IBU/SAUDARA/I BEKERJA ATAU WIRAUSAHA?\",\n" +
+                "         \"deskripsiPertanyaan\":\"BERAPA LAMA BAPAK/IBU/SAUDARA/I BEKERJA ATAU WIRAUSAHA?\",\n" +
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"17\",\n" +
                 "         \"inputTambahan\":true,\n" +
+                "       \"inputTambahanType\":\"NUMERICINPUTNOCURRENCY\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":\"36\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"36\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"SESUAI\",\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -868,28 +885,29 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"18\",\n" +
                 "         \"inputTambahan\":true,\n" +
+                "        \"inputTambahanType\":\"TEXTINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":\"02 - MILIK KELUARGA\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"02 - MILIK KELUARGA\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"SESUAI\",\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "     {\n" +
                 "         \"id\":19,\n" +
                 "         \"pertanyaanId\":19,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
@@ -897,28 +915,29 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"19\",\n" +
                 "         \"inputTambahan\":true,\n" +
+                "         \"inputTambahanType\":\"NUMERICINPUTNOCURRENCY\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":\"120\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"120\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"SESUAI\",\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "     {\n" +
                 "         \"id\":20,\n" +
                 "         \"pertanyaanId\":20,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
@@ -926,24 +945,25 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"20\",\n" +
                 "         \"inputTambahan\":true,\n" +
+                "         \"inputTambahanType\":\"TEXTINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":\"02 - SINGLE\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"02 - SINGLE\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"SESUAI\",\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -955,57 +975,59 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"21\",\n" +
                 "         \"inputTambahan\":true,\n" +
+                "         \"inputTambahanType\":\"NUMERICINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":\"Rp 500,000\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"Rp 500,000\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"SESUAI\",\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "     {\n" +
                 "         \"id\":22,\n" +
                 "         \"pertanyaanId\":22,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"JUMLAH DP YANG DIBAYARKAN?\",\n" +
                 "         \"verifikasiLabel\":\"\",\n" +
-                "         \"indexPertanyaan\":\"22\",\n" +
+                "         \"indexPertanyaan\":22,\n" +
                 "         \"inputTambahan\":true,\n" +
+                "         \"inputTambahanType\":\"NUMERICINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":\"Rp 2,600,000\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"Rp 2,600,000\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"SESUAI\",\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "      {    \n" +
                 "         \"id\":23,\n" +
                 "         \"pertanyaanId\":23,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
@@ -1013,28 +1035,29 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"23\",\n" +
                 "         \"inputTambahan\":true,\n" +
+                "         \"inputTambahanType\":\"NUMERICINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":\"Rp 499,000\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"Rp 499,000\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"SESUAI\",\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "      {    \n" +
                 "         \"id\":24,\n" +
                 "         \"pertanyaanId\":24,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
@@ -1042,24 +1065,25 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"24\",\n" +
                 "         \"inputTambahan\":true,\n" +
+                "         \"inputTambahanType\":\"TEXTINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":\"11 (ANGS KE -1)\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"11 (ANGS KE -1)\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"SESUAI\",\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -1071,64 +1095,66 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"25\",\n" +
                 "         \"inputTambahan\":false,\n" +
+                "         \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"CHECKBOX\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":null,\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": null,\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"KASIR\",\n" +
+                "               \"opsiJawaban\": \"KASIR\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"PT. POS\",\n" +
+                "               \"opsiJawaban\": \"PT. POS\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TRANSFER\",\n" +
+                "               \"opsiJawaban\": \"TRANSFER\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
-                "            {\n" +
-                "               \"opsiJawaban\":\"INDOMARET/ALFAMART\",\n" +
+                "           {\n" +
+                "               \"opsiJawaban\": \"INDOMARET/ALFAMART\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
-                "            {\n" +
-                "               \"opsiJawaban\":\"KEDAY\",\n" +
+                "           {\n" +
+                "               \"opsiJawaban\": \"KEDAY\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
-                "            {\n" +
-                "               \"opsiJawaban\":\"KOLEKTOR\",\n" +
+                "           {\n" +
+                "               \"opsiJawaban\": \"KOLEKTOR\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
-                "            {\n" +
-                "               \"opsiJawaban\":\"DEALER/SHOW ROOM\",\n" +
+                "           {\n" +
+                "               \"opsiJawaban\": \"DEALER/SHOW ROOM\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
-                "            {\n" +
-                "               \"opsiJawaban\":\"LAINNYA\",\n" +
+                "           {\n" +
+                "               \"opsiJawaban\": \"LAINNYA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
+                "          ,\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "      {    \n" +
                 "         \"id\":26,\n" +
                 "         \"pertanyaanId\":26,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
@@ -1136,24 +1162,25 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"26\",\n" +
                 "         \"inputTambahan\":true,\n" +
+                "          \"inputTambahanType\":\"TEXTINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":\"23 (TOTAL OVD)\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"23 (TOTAL OVD)\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"SESUAI\",\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -1165,65 +1192,67 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":27,\n" +
                 "         \"inputTambahan\":false,\n" +
+                "         \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":null,\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": null,\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"DATANG KE RUMAH\",\n" +
+                "               \"opsiJawaban\": \"DATANG KE RUMAH\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK PERNAH DATANG KE RUMAH\",\n" +
+                "               \"opsiJawaban\": \"TIDAK PERNAH DATANG KE RUMAH\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TELEFON/SURAT\",\n" +
+                "               \"opsiJawaban\": \"TELEFON/SURAT\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
-                "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK PERNAH DIINGATKAN\",\n" +
+                "           {\n" +
+                "               \"opsiJawaban\": \"TIDAK PERNAH DIINGATKAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "     {\n" +
                 "         \"id\":28,\n" +
                 "         \"pertanyaanId\":28,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"APAKAH KOLEKTOR MENANYAKAN ALASAN KETERLAMBATAN PEMBAYARAN?\",\n" +
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":28,\n" +
-                "         \"inputTambahan\":false,\n" +
+                "         \"inputTambahan\": false,\n" +
+                "         \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":null,\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": null,\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"YA\",\n" +
+                "               \"opsiJawaban\": \"YA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK\",\n" +
+                "               \"opsiJawaban\": \"TIDAK\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
@@ -1234,29 +1263,30 @@ public class SalesController {
                 "         \"deskripsiPertanyaan\":\"APAKAH BAPAK/IBU/SAUDARA/I PERNAH MEMBAYAR ANGSURAN KEPADA KOLEKTOR ADIRA?\",\n" +
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":29,\n" +
-                "         \"inputTambahan\":false,\n" +
+                "         \"inputTambahan\": false,\n" +
+                "         \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":null,\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": null,\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"YA\",\n" +
+                "               \"opsiJawaban\": \"YA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK\",\n" +
+                "               \"opsiJawaban\": \"TIDAK\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "     {    \n" +
                 "         \"id\":30,\n" +
                 "         \"pertanyaanId\":30,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
@@ -1264,28 +1294,29 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"30\",\n" +
                 "         \"inputTambahan\":true,\n" +
+                "         \"inputTambahanType\":\"DATEINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":\"23-JAN-2020\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"23-JAN-2020\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"SESUAI\",\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "     {    \n" +
                 "         \"id\":31,\n" +
                 "         \"pertanyaanId\":31,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
@@ -1293,115 +1324,120 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":\"31\",\n" +
                 "         \"inputTambahan\":true,\n" +
+                "         \"inputTambahanType\":\"TEXTINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":\"KOSMANOV\",\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": \"KOSMANOV\",\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"SESUAI\",\n" +
+                "               \"opsiJawaban\": \"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK SESUAI\",\n" +
+                "               \"opsiJawaban\": \"TIDAK SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":true\n" +
+                "               \"statusAlert\": true\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "       {\n" +
                 "         \"id\":32,\n" +
                 "         \"pertanyaanId\":32,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
-                "         \"deskripsiPertanyaan\":\"BAGAIMANA PROSES PENARIKAN TERSEBUT?\",\n" +
+                "         \"deskripsiPertanyaan\":\"JIKA YA, BAGAIMANA CARA PETUGAS ADIRA MENGINGATKAN BAPAK/IBU/SAUDARA/I?\",\n" +
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":32,\n" +
                 "         \"inputTambahan\":false,\n" +
+                "         \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":null,\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": null,\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"UNIT DAN STNK DIBERIKAN\",\n" +
+                "               \"opsiJawaban\": \"UNIT DAN STNK DIBERIKAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"UNIT SAJA STNK DI NASABAH\",\n" +
+                "               \"opsiJawaban\": \"UNIT SAJA STNK DI NASABAH\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"DIBERIKAN SURAT PENARIKAN\",\n" +
+                "               \"opsiJawaban\": \"DIBERIKAN SURAT PENARIKAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
+                "            },\n" +
+                "           {\n" +
+                "               \"opsiJawaban\": \"TIDAK DIBERIKAN SURAT PENARIKAN\",\n" +
+                "               \"jawabanSatu\":\"\",\n" +
+                "               \"jawabanDua\":\"\",\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"TIDAK DIBERIKAN SURAT PENARIKAN\",\n" +
+                "               \"opsiJawaban\": \"000 - TIDAK DITARIK\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
-                "            },\n" +
-                "            {\n" +
-                "               \"opsiJawaban\":\"000 - TIDAK DITARIK\",\n" +
-                "               \"jawabanSatu\":\"\",\n" +
-                "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
                 "         ]\n" +
                 "      },\n" +
-                "      {\n" +
+                "     {\n" +
                 "         \"id\":33,\n" +
                 "         \"pertanyaanId\":33,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
-                "         \"deskripsiPertanyaan\":\"BAGAIMANA KONDISI UNIT SAAT DITARIK?\",\n" +
+                "         \"deskripsiPertanyaan\":\"JIKA YA, BAGAIMANA CARA PETUGAS ADIRA MENGINGATKAN BAPAK/IBU/SAUDARA/I?\",\n" +
                 "         \"verifikasiLabel\":\"\",\n" +
                 "         \"indexPertanyaan\":33,\n" +
                 "         \"inputTambahan\":false,\n" +
+                "         \"inputTambahanType\":null,\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
                 "         \"visitId\":\"\",\n" +
-                "         \"samplingFrameField\":null,\n" +
-                "         \"samplingFrameValue\":null,\n" +
+                "         \"samplingFrameField\": null,\n" +
+                "         \"samplingFrameValue\": null,\n" +
                 "         \"details\":[\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"KONDISI BAIK (ORIGINAL)\",\n" +
+                "               \"opsiJawaban\": \"KONDISI BAIK (ORIGINAL)\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"KONDISI BAIK (MODIF)\",\n" +
+                "               \"opsiJawaban\": \"KONDISI BAIK (MODIF)\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
                 "            {\n" +
-                "               \"opsiJawaban\":\"KONDISI RUSAK\",\n" +
+                "               \"opsiJawaban\": \"KONDISI RUSAK\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            },\n" +
-                "            {\n" +
-                "               \"opsiJawaban\":\"LAINNYA\",\n" +
+                "           {\n" +
+                "               \"opsiJawaban\": \"LAINNYA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
                 "               \"jawabanDua\":\"\",\n" +
-                "               \"statusAlert\":false\n" +
+                "               \"statusAlert\": false\n" +
                 "            }\n" +
+                "            \n" +
                 "         ]\n" +
                 "      }\n" +
+                "      \n" +
                 "   ]\n" +
                 "}";
         return ResponseEntity.ok(obj);
