@@ -408,7 +408,7 @@ public class SalesController {
                 "         \"pertanyaanId\":5,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"PRODUK ADIRA APA YANG BAPAK/IBU/SAUDARA/I KREDIT DARI ADIRA FINANCE?\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"verifikasiLabel\":\"PRODUCT\",\n" +
                 "         \"indexPertanyaan\":\"5\",\n" +
                 "         \"inputTambahan\":true,\n" +
                 "         \"inputTambahanType\":\"TEXTINPUT\",\n" +
@@ -462,7 +462,7 @@ public class SalesController {
                 "         \"pertanyaanId\":7,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"UNIT YANG DIKREDIT ATAU DIJAMINKAN?\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"verifikasiLabel\":\"MERK & MODEL\",\n" +
                 "         \"indexPertanyaan\":\"7\",\n" +
                 "         \"inputTambahan\":true,\n" +
                 "         \"inputTambahanType\":\"TEXTINPUT\",\n" +
@@ -522,7 +522,7 @@ public class SalesController {
                 "         \"pertanyaanId\":9,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"STATUS UNIT\",\n" +
-                "         \"verifikasiLabel\":null,\n" +
+                "         \"verifikasiLabel\":\"STATUS UNIT\",\n" +
                 "         \"indexPertanyaan\":9,\n" +
                 "         \"inputTambahan\":false,\n" +
                 "         \"inputTambahanType\":null,\n" +
@@ -594,7 +594,7 @@ public class SalesController {
                 "         \"pertanyaanId\":10,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"UNIT/UANG TUNAI TERSEBUT DIGUNAKAN OLEH SIAPA?\",\n" +
-                "         \"verifikasiLabel\":null,\n" +
+                "         \"verifikasiLabel\":\"PENGGUNAAN UNIT/UANG\",\n" +
                 "         \"indexPertanyaan\":10,\n" +
                 "         \"inputTambahan\":false,\n" +
                 "         \"inputTambahanType\":null,\n" +
@@ -636,7 +636,7 @@ public class SalesController {
                 "         \"pertanyaanId\":11,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"APAKAH PETUGAS SURVEY DATANG KE RUMAH??\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"verifikasiLabel\":\"DISURVEY\",\n" +
                 "         \"indexPertanyaan\":11,\n" +
                 "         \"inputTambahan\":false,\n" +
                 "         \"inputTambahanType\":null,\n" +
@@ -666,7 +666,7 @@ public class SalesController {
                 "         \"pertanyaanId\":12,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"APAKAH PETUGAS SURVEY MEMBERIKAN PENJELASAN TERKAIT KREDIT ADIRA?\",\n" +
-                "         \"verifikasiLabel\":null,\n" +
+                "         \"verifikasiLabel\":\"PENJELASAN PENTING\",\n" +
                 "         \"indexPertanyaan\":12,\n" +
                 "         \"inputTambahan\":false,\n" +
                 "         \"inputTambahanType\":null,\n" +
@@ -720,7 +720,7 @@ public class SalesController {
                 "         \"pertanyaanId\":13,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"APAKAH BAPAK/IBU/SAUDARA/I (NASABAH) MENANDATANGANI AKAD/PERJANJIAN KREDIT?\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"verifikasiLabel\":\"TANDA TANGAN PERJANJIAN\",\n" +
                 "         \"indexPertanyaan\":13,\n" +
                 "         \"inputTambahan\":false,\n" +
                 "         \"inputTambahanType\":null,\n" +
@@ -798,7 +798,7 @@ public class SalesController {
                 "         \"pertanyaanId\":15,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"BERAPA BIAYA ADMINISTRASI YANG DIBERIKAN KEPADA PETUGAS ADIRA?\",\n" +
-                "         \"verifikasiLabel\":null,\n" +
+                "         \"verifikasiLabel\":\"ADA PERMINTAAN UANG\",\n" +
                 "         \"indexPertanyaan\":15,\n" +
                 "         \"inputTambahan\":false,\n" +
                 "         \"inputTambahanType\":null,\n" +
@@ -821,8 +821,8 @@ public class SalesController {
                 "         \"id\":16,\n" +
                 "         \"pertanyaanId\":16,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
-                "         \"deskripsiPertanyaan\":\"TUJUAN PENGGUNAAN UANG ATAU UNIT UNTUK APA?\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"deskripsiPertanyaan\":\"APA PEKERJAAN BAPAK/IBU/SAUDARA/I?\",\n" +
+                "         \"verifikasiLabel\":\"PEKERJAAN\",\n" +
                 "         \"indexPertanyaan\":\"16\",\n" +
                 "         \"inputTambahan\":true,\n" +
                 "         \"inputTambahanType\":\"TEXTINPUT\",\n" +
@@ -852,7 +852,7 @@ public class SalesController {
                 "         \"pertanyaanId\":17,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"BERAPA LAMA BAPAK/IBU/SAUDARA/I BEKERJA ATAU WIRAUSAHA?\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"verifikasiLabel\":\"LAMA BERKERJA\",\n" +
                 "         \"indexPertanyaan\":\"17\",\n" +
                 "         \"inputTambahan\":true,\n" +
                 "         \"inputTambahanType\":\"NUMERICINPUTNOCURRENCY\",\n" +
@@ -882,7 +882,7 @@ public class SalesController {
                 "         \"pertanyaanId\":18,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"STATUS KEPEMILIKAN RUMAH\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"verifikasiLabel\":\"STATUS RUMAH\",\n" +
                 "         \"indexPertanyaan\":\"18\",\n" +
                 "         \"inputTambahan\":true,\n" +
                 "         \"inputTambahanType\":\"TEXTINPUT\",\n" +
@@ -912,7 +912,7 @@ public class SalesController {
                 "         \"pertanyaanId\":19,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"BERAPA LAMA BAPAK/IBU/SAUDARA/I MENEMPATI RUMAH INI?\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"verifikasiLabel\":\"LAMA MENEMPATI\",\n" +
                 "         \"indexPertanyaan\":\"19\",\n" +
                 "         \"inputTambahan\":true,\n" +
                 "         \"inputTambahanType\":\"NUMERICINPUTNOCURRENCY\",\n" +
@@ -942,7 +942,7 @@ public class SalesController {
                 "         \"pertanyaanId\":20,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"APAKAH BAPAK/IBU/SAUDARA/I (NASABAH) SUDAH MENIKAH DAN MEMILIKI ANAK?\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"verifikasiLabel\":\"STATUS DAN TANGGUNGAN\",\n" +
                 "         \"indexPertanyaan\":\"20\",\n" +
                 "         \"inputTambahan\":true,\n" +
                 "         \"inputTambahanType\":\"TEXTINPUT\",\n" +
@@ -972,7 +972,7 @@ public class SalesController {
                 "         \"pertanyaanId\":21,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"APA BAPAK/IBU/SAUDARA/I (NASABAH ADIRA) MEMILIKI USAHA/PEKERJAAN/PENGHASILAN LAIN?\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"verifikasiLabel\":\"PENGHASILAN LAIN\",\n" +
                 "         \"indexPertanyaan\":\"21\",\n" +
                 "         \"inputTambahan\":true,\n" +
                 "         \"inputTambahanType\":\"NUMERICINPUT\",\n" +
@@ -1002,7 +1002,7 @@ public class SalesController {
                 "         \"pertanyaanId\":22,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"JUMLAH DP YANG DIBAYARKAN?\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"verifikasiLabel\":\"DP BAYAR\",\n" +
                 "         \"indexPertanyaan\":22,\n" +
                 "         \"inputTambahan\":true,\n" +
                 "         \"inputTambahanType\":\"NUMERICINPUT\",\n" +
@@ -1032,7 +1032,7 @@ public class SalesController {
                 "         \"pertanyaanId\":23,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"JUMLAH ANGSURAN\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"verifikasiLabel\":\"NOMINAL ANGSURAN\",\n" +
                 "         \"indexPertanyaan\":\"23\",\n" +
                 "         \"inputTambahan\":true,\n" +
                 "         \"inputTambahanType\":\"NUMERICINPUT\",\n" +
@@ -1062,7 +1062,7 @@ public class SalesController {
                 "         \"pertanyaanId\":24,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"BERAPA KALI ANGSURAN YANG SUDAH BAPAK/IBU/SAUDARA/I BAYARKAN?\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"verifikasiLabel\":\"BERAPA KALI MEMBAYAR\",\n" +
                 "         \"indexPertanyaan\":\"24\",\n" +
                 "         \"inputTambahan\":true,\n" +
                 "         \"inputTambahanType\":\"TEXTINPUT\",\n" +
@@ -1290,7 +1290,7 @@ public class SalesController {
                 "         \"pertanyaanId\":30,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"KAPAN UNIT DITARIK OLEH ADIRA?\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"verifikasiLabel\":\"TANGGAL TARIK\",\n" +
                 "         \"indexPertanyaan\":\"30\",\n" +
                 "         \"inputTambahan\":true,\n" +
                 "         \"inputTambahanType\":\"DATEINPUT\",\n" +
@@ -1320,7 +1320,7 @@ public class SalesController {
                 "         \"pertanyaanId\":31,\n" +
                 "         \"nomorKontrak\":\"23456734\",\n" +
                 "         \"deskripsiPertanyaan\":\"SIAPA YANG MELAKUKAN PENARIKAN?\",\n" +
-                "         \"verifikasiLabel\":\"\",\n" +
+                "         \"verifikasiLabel\":\"PIC REPOSSES\",\n" +
                 "         \"indexPertanyaan\":\"31\",\n" +
                 "         \"inputTambahan\":true,\n" +
                 "         \"inputTambahanType\":\"TEXTINPUT\",\n" +
