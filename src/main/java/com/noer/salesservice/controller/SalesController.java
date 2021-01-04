@@ -855,7 +855,7 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"LAMA BERKERJA\",\n" +
                 "         \"indexPertanyaan\":\"17\",\n" +
                 "         \"inputTambahan\":true,\n" +
-                "         \"inputTambahanType\":\"NUMERICINPUTNOCURRENCY\",\n" +
+                "         \"inputTambahanType\":\"NUMERICINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
@@ -915,7 +915,7 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"LAMA MENEMPATI\",\n" +
                 "         \"indexPertanyaan\":\"19\",\n" +
                 "         \"inputTambahan\":true,\n" +
-                "         \"inputTambahanType\":\"NUMERICINPUTNOCURRENCY\",\n" +
+                "         \"inputTambahanType\":\"NUMERICINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
@@ -975,7 +975,7 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"PENGHASILAN LAIN\",\n" +
                 "         \"indexPertanyaan\":\"21\",\n" +
                 "         \"inputTambahan\":true,\n" +
-                "         \"inputTambahanType\":\"NUMERICINPUT\",\n" +
+                "         \"inputTambahanType\":\"CURRENCYINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
@@ -1005,7 +1005,7 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"DP BAYAR\",\n" +
                 "         \"indexPertanyaan\":22,\n" +
                 "         \"inputTambahan\":true,\n" +
-                "         \"inputTambahanType\":\"NUMERICINPUT\",\n" +
+                "         \"inputTambahanType\":\"CURRENCYINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
@@ -1035,7 +1035,7 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"NOMINAL ANGSURAN\",\n" +
                 "         \"indexPertanyaan\":\"23\",\n" +
                 "         \"inputTambahan\":true,\n" +
-                "         \"inputTambahanType\":\"NUMERICINPUT\",\n" +
+                "         \"inputTambahanType\":\"CURRENCYINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
@@ -1065,7 +1065,7 @@ public class SalesController {
                 "         \"verifikasiLabel\":\"BERAPA KALI MEMBAYAR\",\n" +
                 "         \"indexPertanyaan\":\"24\",\n" +
                 "         \"inputTambahan\":true,\n" +
-                "         \"inputTambahanType\":\"TEXTINPUT\",\n" +
+                "         \"inputTambahanType\":\"NUMERICINPUT\",\n" +
                 "         \"inputType\":\"RADIO\",\n" +
                 "         \"picField\":\"12345678\",\n" +
                 "         \"inputParameterType\":\"\",\n" +
