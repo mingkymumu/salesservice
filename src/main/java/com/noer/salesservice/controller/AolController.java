@@ -3,8 +3,10 @@ package com.noer.salesservice.controller;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.noer.salesservice.dto.BaseAolRequest;
+import com.noer.salesservice.dto.BaseEsbRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,7 +26,7 @@ public class AolController {
     }
 
     // parameter data = no kontrak, branch id
-    @PostMapping(value = "inquiryPaymentHistory")
+    @PostMapping(value = "inquiryPaymentHistory", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<?> inquiryPaymentHistory(@RequestBody BaseAolRequest baseAolRequest) {
         try {
             log.info(objectMapper().writeValueAsString(baseAolRequest));
@@ -124,6 +126,78 @@ public class AolController {
                     "    }\n" +
                     "}\n";
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);
+        }
+    }
+
+    // parameter data = szBrid, szKontrak
+    @PostMapping(value = "getdataqpc", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<?> inquiryPaymentHistory(@RequestBody BaseEsbRequest baseEsbRequest) {
+        try {
+            log.info(objectMapper().writeValueAsString(baseEsbRequest));
+        } catch (JsonProcessingException e) {
+        }
+        String response;
+        if (baseEsbRequest.getData().getSzKontrak().length() == 12) {
+            response = "{\n" +
+                    "    \"header\": {\n" +
+                    "        \"code\": \"ESB-00-000\",\n" +
+                    "        \"message\": \"Permintaan berhasil diproses\",\n" +
+                    "        \"srcCode\": \"200\",\n" +
+                    "        \"srcMessage\": \"SUCCESS\",\n" +
+                    "        \"addInfo\": {\n" +
+                    "            \"requestId\": \"QPC-201904181418112234\",\n" +
+                    "            \"requestTimestamp\": \"2019-04-18 11:22:33\",\n" +
+                    "            \"refNo\": \"20201108212422634343065756912479\",\n" +
+                    "            \"srcTarget\": \"0\"\n" +
+                    "        }\n" +
+                    "    },\n" +
+                    "    \"data\": {\n" +
+                    "        \"rec\": [\n" +
+                    "            {\n" +
+                    "                \"karoseri\": \"\",\n" +
+                    "                \"hargaKaroseri\": \"\",\n" +
+                    "                \"noTelefonRumah\": \"000-000000     \",\n" +
+                    "                \"noHandphone\": \"089263546271    \",\n" +
+                    "                \"lamaKerjaUsaha\": \"240\",\n" +
+                    "                \"pekerjaanKaryawanProfesional\": \"PEG.NEGERI                    \",\n" +
+                    "                \"pendapatanKaryawanProfesional\": \"43000000\",\n" +
+                    "                \"kryProfPendapatanLainnya\": \"0\",\n" +
+                    "                \"pekerjaanWiraswasta\": \"PEG.NEGERI                    \",\n" +
+                    "                \"wiraswastaTotalPendapatan\": \"0\",\n" +
+                    "                \"wiraLabaSblmPajak\": \"0\",\n" +
+                    "                \"wiraLabaStlhPajak\": \"0\",\n" +
+                    "                \"statusRumah\": \"MILIK SENDIRI                 \",\n" +
+                    "                \"namaPasangan\": \"\",\n" +
+                    "                \"lamaTinggalBln\": \"96\",\n" +
+                    "                \"dealerMatrix\": \"\",\n" +
+                    "                \"creditScoring\": \"\"\n" +
+                    "            }\n" +
+                    "        ]\n" +
+                    "    }\n" +
+                    "}\n";
+
+            return ResponseEntity.ok(response);
+
+        } else {
+
+            response = "{\n" +
+                    "    \"header\": {\n" +
+                    "        \"code\": \"ESB-04-044\",\n" +
+                    "        \"message\": \"Data tidak ditemukan\",\n" +
+                    "        \"srcCode\": \"404\",\n" +
+                    "        \"srcMessage\": \"Empty List\",\n" +
+                    "        \"addInfo\": {\n" +
+                    "            \"requestId\": \"QPC-201904181418112234\",\n" +
+                    "            \"requestTimestamp\": \"2019-04-18 11:22:33\",\n" +
+                    "            \"refNo\": \"20201108214126487872458572539947\",\n" +
+                    "            \"srcTarget\": \"0\"\n" +
+                    "        }\n" +
+                    "    },\n" +
+                    "    \"data\": {}\n" +
+                    "}\n";
+
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);
+
         }
     }
 
