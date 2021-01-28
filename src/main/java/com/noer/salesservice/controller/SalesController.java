@@ -292,7 +292,7 @@ public class SalesController {
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":null,\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsijawaban\":null,\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -316,7 +316,7 @@ public class SalesController {
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":null,\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":null,\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -340,7 +340,7 @@ public class SalesController {
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":null,\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -364,7 +364,7 @@ public class SalesController {
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
                 "         \"samplingrameField\":\"\",\n" +
                 "         \"samplingFrameValue\":\"\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"DEALER\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -418,7 +418,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":\"PRODUCT\",\n" +
                 "         \"samplingFrameValue\":\"0002F-REGULAR NMCY\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -448,7 +448,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":null,\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":null,\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -472,7 +472,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":\"HONDA VARIO 125 ESP CBS\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -502,7 +502,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":\"MULTIGUNA-MURABAHAH\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -532,7 +532,7 @@ public class SalesController {
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
                 "         \"samplingrameField\":\"\",\n" +
                 "         \"samplingFrameValue\":\"\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"NASABAH/PASANGAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -604,7 +604,7 @@ public class SalesController {
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
                 "         \"samplingrameField\":\"\",\n" +
                 "         \"samplingFrameValue\":\"\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SENDIRI/PASANGAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -646,7 +646,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":null,\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"YA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -676,7 +676,7 @@ public class SalesController {
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
                 "         \"samplingrameField\":\"\",\n" +
                 "         \"samplingFrameValue\":\"\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"HARGA UNIT\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -730,7 +730,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":null,\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"YA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -766,7 +766,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":null,\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"DIANTAR KE RUMAH\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -808,7 +808,7 @@ public class SalesController {
                 "         \"visitId\":\"001/0302/K1/REG/QPC/I/2020\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":null,\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":null,\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -832,7 +832,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":\"03 - PEG.SWASTA FORMAL\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -862,7 +862,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":\"36\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -892,7 +892,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":\"02 - MILIK KELUARGA\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -922,7 +922,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":\"120\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -952,7 +952,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":\"02 - SINGLE\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -982,7 +982,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":\"Rp 500,000\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -1012,7 +1012,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":\"Rp 2,600,000\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -1042,7 +1042,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":\"Rp 499,000\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -1072,7 +1072,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":\"11 (ANGS KE -1)\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -1102,7 +1102,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":null,\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"KASIR\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -1168,7 +1168,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":\"23 (TOTAL OVD)\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -1198,7 +1198,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":null,\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"DATANG KE RUMAH\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -1240,7 +1240,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":null,\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"YA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -1270,7 +1270,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":null,\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"YA\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -1300,7 +1300,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":\"23-JAN-2020\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -1330,7 +1330,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":\"KOSMANOV\",\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"SESUAI\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -1360,7 +1360,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":null,\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"UNIT DAN STNK DIBERIKAN\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
@@ -1408,7 +1408,7 @@ public class SalesController {
                 "         \"visitId\":\"\",\n" +
                 "         \"samplingFrameField\":null,\n" +
                 "         \"samplingFrameValue\":null,\n" +
-                "         \"details\":[\n" +
+                "         \"listResultKunjunganDetailDTO\":[\n" +
                 "            {\n" +
                 "               \"opsiJawaban\":\"KONDISI BAIK (ORIGINAL)\",\n" +
                 "               \"jawabanSatu\":\"\",\n" +
