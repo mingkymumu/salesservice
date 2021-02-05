@@ -147,17 +147,43 @@ public class AolController {
                     "        \"addInfo\": {\n" +
                     "            \"requestId\": \"QPC-201904181418112234\",\n" +
                     "            \"requestTimestamp\": \"2019-04-18 11:22:33\",\n" +
-                    "            \"refNo\": \"20201108212422634343065756912479\",\n" +
+                    "            \"refNo\": \"20210202111435130412049199772245\",\n" +
                     "            \"srcTarget\": \"0\"\n" +
                     "        }\n" +
                     "    },\n" +
                     "    \"data\": {\n" +
                     "        \"rec\": [\n" +
                     "            {\n" +
-                    "                \"karoseri\": \"\",\n" +
-                    "                \"hargaKaroseri\": \"\",\n" +
+                    "                \"cabangHandling\": null,\n" +
+                    "                \"product\": null,\n" +
+                    "                \"namaSurveyor\": \"010016508 - ROKHI BOWO PURNOMO\",\n" +
+                    "                \"namaCollector1\": null,\n" +
+                    "                \"namaCollector2\": null,\n" +
+                    "                \"namaDealer\": \"000195 - BERKAT MOTOR-BDG\",\n" +
+                    "                \"brand\": \"MOTOR BARU          \",\n" +
+                    "                \"merk\": \"001 - HONDA               \",\n" +
+                    "                \"model\": \"\\\\36 - SUPRA X125CW HELM IN\",\n" +
+                    "                \"hargaOTR\": \"18000000\",\n" +
+                    "                \"dpNasabah\": \"2816130\",\n" +
+                    "                \"dpPercent\": \".16%\",\n" +
+                    "                \"tanggalAggingEOM\": null,\n" +
+                    "                \"overdue\": null,\n" +
+                    "                \"angsKe\": null,\n" +
+                    "                \"sisaPokok\": null,\n" +
+                    "                \"tenor\": \"36\",\n" +
+                    "                \"jumlahAngsuran\": \"726000\",\n" +
+                    "                \"alamatTagih\": \"JL BOULEVARD NO 01                                \",\n" +
+                    "                \"kodePos\": \"42354\",\n" +
+                    "                \"karoseri\": null,\n" +
+                    "                \"hargaKaroseri\": null,\n" +
                     "                \"noTelefonRumah\": \"000-000000     \",\n" +
-                    "                \"noHandphone\": \"089263546271    \",\n" +
+                    "                \"noHandphone1\": null,\n" +
+                    "                \"noHandphone2\": null,\n" +
+                    "                \"noHandphone3\": null,\n" +
+                    "                \"areaCollection\": null,\n" +
+                    "                \"nomorPolisi\": null,\n" +
+                    "                \"tanggalPPD\": \"2019-08-29\",\n" +
+                    "                \"delinquency\": null,\n" +
                     "                \"lamaKerjaUsaha\": \"240\",\n" +
                     "                \"pekerjaanKaryawanProfesional\": \"PEG.NEGERI                    \",\n" +
                     "                \"pendapatanKaryawanProfesional\": \"43000000\",\n" +
@@ -166,11 +192,18 @@ public class AolController {
                     "                \"wiraswastaTotalPendapatan\": \"0\",\n" +
                     "                \"wiraLabaSblmPajak\": \"0\",\n" +
                     "                \"wiraLabaStlhPajak\": \"0\",\n" +
+                    "                \"pekerjaanLembaga\": null,\n" +
+                    "                \"lembagaTotalPendapatan\": null,\n" +
+                    "                \"lembagaLabaBersihSblmPajak\": null,\n" +
+                    "                \"lembagaLabaBersihStlhPajak\": null,\n" +
                     "                \"statusRumah\": \"MILIK SENDIRI                 \",\n" +
-                    "                \"namaPasangan\": \"\",\n" +
+                    "                \"namaPasangan\": null,\n" +
                     "                \"lamaTinggalBln\": \"96\",\n" +
-                    "                \"dealerMatrix\": \"\",\n" +
-                    "                \"creditScoring\": \"\"\n" +
+                    "                \"dealerMatrix\": null,\n" +
+                    "                \"creditScoring\": null,\n" +
+                    "                \"tanggalTarik\": null,\n" +
+                    "                \"petugasPenarikan\": null,\n" +
+                    "                \"grade\": null\n" +
                     "            }\n" +
                     "        ]\n" +
                     "    }\n" +
